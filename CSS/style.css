@@ -7,7 +7,7 @@ body {
   font-family:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f1f1f1;
 }
 
 h1,
@@ -43,18 +43,19 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   padding: 0 20px;
+  gap: 10%;
 }
 
 .headtext {
   flex: 1;
-  padding-bottom: 40px;
+  margin: auto 0;
   z-index: 10;
 }
 
 header h1 {
   color: #fff;
   font-family: "Arial Black", "Helvetica Inserat", sans-serif;
-  font-size: clamp(3rem, 8vw, 8rem);
+  font-size: 7vw;
   font-style: italic;
   font-weight: 900;
   text-transform: uppercase;
@@ -78,12 +79,11 @@ header p {
 }
 
 .bg-pattern {
-  padding-top: 4px;
   flex: 1;
   max-width: 100%;
   height: 100%;
   font-family: "Arial Black", "Impact", sans-serif;
-  font-size: 8vw;
+  font-size: 7.5vw;
   font-weight: 900;
   line-height: 1;
   color: rgba(255, 255, 255, 0.08);
@@ -101,4 +101,35 @@ header p {
   width: 100%;
   height: 100%;
   z-index: 0;
+  margin: auto 0;
+}
+
+.paragraph1 {
+  color: #171717;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: clamp(1rem, 1.7vw, 2rem);
+  font-weight: 100;
+  margin-top: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2% 4%;
+}
+
+.balboa {
+  width: 45%;
+  max-width: 500px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.fintoh3 {
+  color: #b20000;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
