@@ -43,7 +43,7 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   padding: 0 20px;
-  gap: 10%;
+  gap: clamp(1rem, 5vw, 4vw);
 }
 
 .headtext {
@@ -55,7 +55,7 @@ header {
 header h1 {
   color: #fff;
   font-family: "Arial Black", "Helvetica Inserat", sans-serif;
-  font-size: 7vw;
+  font-size: clamp(2.5rem, 7vw, 7rem);
   font-style: italic;
   font-weight: 900;
   text-transform: uppercase;
@@ -72,8 +72,7 @@ header p {
 }
 
 .dylantitle {
-  width: 45%;
-  max-width: 500px;
+  width: clamp(10rem, 30vw, 35rem);
   position: relative;
   margin-bottom: -5px;
 }
@@ -91,6 +90,7 @@ header p {
   user-select: none;
   pointer-events: none;
   overflow: hidden;
+  text-align: center;
 }
 
 .flex {
@@ -121,13 +121,13 @@ main {
 }
 
 .balboa {
-  width: 45%;
-  max-width: 500px;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
   position: relative;
-  margin-bottom: 5px;
 }
 
-.fintoh3 {
+.evidenzia {
   color: #b20000;
   font-size: 1.1em;
   font-weight: 600;
