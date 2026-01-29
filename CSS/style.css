@@ -42,7 +42,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 20px;
   gap: clamp(1rem, 5vw, 4vw);
 }
 
@@ -55,7 +54,7 @@ header {
 header h1 {
   color: #fff;
   font-family: "Arial Black", "Helvetica Inserat", sans-serif;
-  font-size: clamp(2.5rem, 7vw, 7rem);
+  font-size: clamp(1.8rem, 7vw, 7rem);
   font-style: italic;
   font-weight: 900;
   text-transform: uppercase;
@@ -66,15 +65,15 @@ header h1 {
 header p {
   color: #fff;
   font-family: sans-serif;
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: clamp(0.6rem, 2.5vw, 2rem);
   font-weight: 400;
   margin-top: 10px;
 }
 
 .dylantitle {
-  width: clamp(10rem, 30vw, 35rem);
+  width: 30vw;
   position: relative;
-  margin-bottom: -5px;
+  margin-bottom: -100px;
 }
 
 .bg-pattern {
@@ -105,14 +104,35 @@ header p {
 }
 
 .paragraph1 {
+  margin: 0 auto;
+}
+
+.paragraph1 p {
+  margin: 0 auto;
+  color: #171717;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: clamp(1rem, 1.2vw, 2rem);
+  font-weight: 100;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.paragraph1 h2 {
+  margin: 0 auto;
   color: #171717;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   font-size: clamp(1rem, 1.7vw, 2rem);
-  font-weight: 100;
+  font-weight: 600;
   margin-top: 10px;
   text-align: center;
+}
+
+.paragraph1 a {
+  text-decoration: none underline;
 }
 
 main {
