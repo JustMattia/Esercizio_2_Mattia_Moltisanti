@@ -229,14 +229,13 @@ main {
 
 .paragraph3 h2 {
   margin: 0 auto;
-  color: #171717;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
-  font-size: clamp(1rem, 1.7vw, 2rem);
+  color: #b20000;
+  font-size: 1.5vw;
   font-weight: 600;
   margin-top: 10px;
   text-align: left;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 footer {
