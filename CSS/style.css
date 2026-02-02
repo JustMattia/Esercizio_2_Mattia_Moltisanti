@@ -164,6 +164,10 @@ main {
   overflow: hidden;
 }
 
+.card1 {
+  flex-direction: row-reverse;
+}
+
 .card img {
   width: 50%;
   object-fit: cover;
@@ -211,4 +215,54 @@ footer p {
 }
 
 @media (max-width: 600px) {
+  .header-content img {
+    display: none;
+  }
+  .header-content h1,
+  .footer-content h1 {
+    font-size: 13vw;
+    text-align: center;
+  }
+  .header-content p {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .header-content {
+    padding: 8vw 0;
+  }
+
+  .intro {
+    text-align: center;
+    margin-top: 5vw;
+  }
+
+  .card {
+    flex-direction: column;
+    margin: 10vw 0;
+  }
+  .card h2 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .card p {
+    text-align: justify;
+  }
+
+  .card1 img {
+    max-width: 700px;
+    width: 140%;
+  }
+  .card2 img {
+    max-width: 100%;
+  }
+
+  .footer-content p {
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 2vw;
+  }
+  .footer-content {
+    padding-bottom: 2.5vw;
+  }
 }
