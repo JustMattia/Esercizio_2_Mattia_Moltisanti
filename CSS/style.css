@@ -287,6 +287,7 @@ footer p {
   }
 
   .card1 img {
+    margin-top: -10vw;
     max-width: 700px;
     width: 140%;
   }
