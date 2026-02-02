@@ -194,9 +194,8 @@ main {
 }
 
 .ratman img {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
+  width: 100%;
+  height: auto;
   overflow: hidden;
 }
 
@@ -214,7 +213,45 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 726px) and (max-width: 1200px) {
+  .card h2 {
+    font-size: 3vw;
+    width: 100%;
+  }
+  .card2 {
+    justify-content: space-between;
+    flex-shrink: 2 0;
+  }
+  .card1 {
+    flex-shrink: 0 2SS;
+  }
+  .card-text {
+    width: 50%;
+  }
+  .card1 img {
+    align-self: flex-end;
+    width: 60%;
+    flex-shrink: 0;
+    margin-right: -17vw;
+  }
+  .ratman {
+    flex-shrink: 0;
+    width: 40%;
+    align-self: flex-end;
+  }
+  .header-content p {
+    font-size: 2.5vw;
+  }
+  .footer-content p {
+    font-size: 3vw;
+  }
+  .header-content h1,
+  .footer-content h1 {
+    font-size: 6.5vw;
+  }
+}
+
+@media (max-width: 726px) {
   .header-content img {
     display: none;
   }
